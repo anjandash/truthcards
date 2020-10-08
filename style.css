@@ -216,6 +216,17 @@ body{
 
 }
 
+.bannerBtn{
+    width: auto;
+    
+    background: transparent; 
+    border: 0px solid red;
+
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+}
+
 .downloadBtn{
     width: 120px;
     height: 40px;
