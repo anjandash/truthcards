@@ -3,6 +3,9 @@
 *{
     margin: 0px;
     padding: 0px;
+    background-color: #fcfcfc;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 
     animation: appeardelay 0.5s ease-in forwards;
 }
