@@ -217,8 +217,8 @@ body{
 }
 
 .bannerBtn{
-    width: auto;
-    
+    width: 125px;
+
     background: transparent; 
     border: 0px solid red;
 
