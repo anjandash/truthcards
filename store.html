@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Truthcards | Store</title>
+</head>
+<body>
+    <div style="margin: 20px auto; border: 1px solid whitesmoke; border-radius: 10px; padding: 5px;">
+        <form action="https://truthcards.herokuapp.com/" method="POST">
+            <script
+                src="https://checkout.stripe.com/checkout.js"
+                class="stripe-button"
+                data-key="pk_live_WLXWBJoG7TTmAnMbd57cYJsy"
+                data-name="truthcards magnet for abundance"
+                data-description="truthcards magnet for abundance sale"
+                data-amount="25"
+            ></script>
+            <input name="amount" value="25" type="hidden">
+            <input name="description" value="truthcards magnet for abundance" type="hidden">
+            <input name="metadata" value="truthcards magnet for abundance" type="hidden">
+        </form>
+    </div>
+</body>
+</html>
